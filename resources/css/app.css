@@ -1,0 +1,43 @@
+.fixed-div-left {
+    position: fixed;
+    top: 110px; /* Fija el div en la parte superior */
+    left: 0; /* Fija el div en la parte derecha */
+    width: 45%; /* Ancho del div */
+    max-width: 400px; /* Ancho máximo */
+    background-color: #f8f9fa; /* Fondo del div */
+    padding: 20px; /* Espaciado interno del div */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+.fixed-div-right {
+    position: fixed;
+    top: 110px; /* Fija el div en la parte superior */
+    right: 0; /* Fija el div en la parte derecha */
+    width: 100%; /* Ancho del div */
+    max-width: 490px; /* Ancho máximo */
+    background-color: #f8f9fa; /* Fondo del div */
+    padding: 20px; /* Espaciado interno del div */
+    margin: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+@media (max-width: 600px) {
+    .fixed-div {
+        width: 100%; /* En pantallas pequeñas, el div ocupará todo el ancho */
+        max-width: none; /* Remover el ancho máximo para pantallas pequeñas */
+    }
+}
+
+.fixadmin-div-right {
+    position: fixed;
+    top: 82px; /* Fija el div en la parte superior */
+    left: 0; /* Fija el div en la parte derecha */
+    width: 45%; /* Ancho del div */
+    max-width: 450px; /* Ancho máximo */
+    background-color: #f8f9fa; /* Fondo del div */
+    padding: 10px; /* Espaciado interno del div */
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
